@@ -406,7 +406,6 @@ header .nav-bar{
   color: #ecf0f1;
   margin: 10px 0px;
 }
-
 /* Candidate section media query */
 @media screen and (max-width: 750px){
   .banner-container{
