@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website Landing Page With Full Screen Draggable Image Slider - Html, Css & Javascript</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-bar">
+        <div id="logo">LION<a id="logo-s">HEART</a></div>
+        <div class="navigation">
+            <div class="nav-items">
+            <i class="uil uil-times nav-close-btn"></i>
+            <a href="#"><i class="uil uil-home"></i> Home</a>
+            <a href="#main-slider"><i class="uil uil-compass"></i> Heroes</a>
+                               
+            <!-- <a href="#"><i class="uil uil-info-circle"></i> About</a> -->
+            </div>
+        </div>
+        <i class="uil uil-apps nav-menu-btn"></i>
+    </div>
+</header>
+
+  <section class="home">
+    <div class="media-icons">
+      <a href="#"><i class="uil uil-facebook-f"></i></a>
+      <a href="#"><i class="uil uil-instagram"></i></a>
+      <a href="#"><i class="uil uil-twitter"></i></a>
+    </div>
+
+    <div class="swiper bg-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide dark-layer">
+          <img src="img/hero-lies-within-you.png" alt="">
+          <div class="text-content">
+            <h2 class="title">What is a hero?<span><br>Selfless, genuinely good person</span></h2>
+            <p>Acting voluntarily for the service of others who are in need, whether it 
+            is for an individual, a group, or a community. People who don't look for anything
+            in return. People who does it all and does not falter in times of adversity because
+            people look up to them. Showing a brave front can give hope for the people around them.</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <img src="img/medical-heroes.webp" alt="">
+          <div class="text-content">
+            <h2 class="title">What makes a hero?<span><br>Someone who cares and fights for the greater good</span></h2>
+            <p>A person who cares for their people and won't tolerate any wickedness or
+            destructive acts towards the community is what some would consider a hero.
+            Showing love and affection and fighting for the greater good for the betterment
+            of the community is what people should strive for.
+            </p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <img src="img/modern-day-heroes.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title" id="title-3">How do you become a hero? <span><br>First, be responsible</span></h2>
+            <p>It is important to be responsible because this shows your obligation to do things,
+            to make sure that things get done, it shows you have control and being in charge. You 
+            have duties to fulfill which could eventually lead to helping another person and possibly
+            brighten their day. Even the little things matter.
+            </p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <img src="img/modern-heroes.webp" alt="">
+          <div class="text-content">
+            <h2 class="title">Who are the heroes today? <span><br>Those who stand up even in the most difficult times</span></h2>
+            <p>A hero doesn’t have to have special powers, it can be an ordinary every day person.
+            A hero always puts their lives on the line. They risk their own life to safe the lives of others. 
+            You step up what I mean by step up is they become brave in extremely brave in very difficult moments. 
+            You don’t stand up for what you think is right. You stand up for what you know is right.
+            </p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-slider-thumbs">
+      <div class="swiper-wrapper thumbs-container">
+        <img src="img/hero-lies-within-you.png" class="swiper-slide" alt="">
+        <img src="img/medical-heroes.webp" class="swiper-slide" alt="">
+        <img src="img/modern-day-heroes.jpg" class="swiper-slide" alt="">
+        <img src="img/modern-heroes.webp" class="swiper-slide" alt="">
+      </div>
+    </div>
+  </section>
+  <h1 id="h1-middle">Modern day heroes of our society</h1>
+        <!-- Presidential Candidate Preview Showcase -->
+        <section id="main-slider">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="main-slider-box">
+                            <a href="<?php echo 'candidate-manny.php';?>" class="main-slider-overlay">
+                                <i class="fa-solid fa-users-viewfinder"></i>
+                                <p>View Information</p>
+                            </a>
+                            <div class="main-slider-img">
+                                <img src="img/covid-frontliners-balbusso-twins-illustration.png" alt="Poster">
+                            </div>
+                            <div class="main-slider-text">
+                                <span class="quality"></span>
+                                <div class="bottom-text">
+                                    <p style="font-size: 1.3rem; color: white;">Frontline Workers</p>
+                                    <div class="candidate-name">
+                                        <span>Doctors, Nurses, Farmers, and more</span>
+                                        <strong>"Not the glittering weapon fights the fight, but rather the hero’s heart"</strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="main-slider-box">
+                            <a href="#" class="main-slider-overlay">
+                                </br>
+                                <p>View Candidate</p>
+                            </a>
+                            <div class="main-slider-img">
+                                <img src="img/Leni-Robredo.png" alt="Poster">
+                            </div>
+                            <div class="main-slider-text">
+                                <span class="quality"></span>
+                                <div class="bottom-text">
+                                    <p style="font-size: 1.3rem; color: white;">Leni Robredo</p>
+                                    <div class="candidate-name">
+                                        <span >Former Vice President, Lawyer</span>
+                                        <strong>"Not the glittering weapon fights the fight, but rather the hero’s heart"</strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="main-slider-box">
+                            <a href="#" class="main-slider-overlay">
+                                <i class="fa-solid fa-users-viewfinder"></i>
+                                </br>
+                                <p>View Candidate</p>
+                            </a>
+                            <div class="main-slider-img">
+                                <img src="" alt="Poster">
+                            </div>
+                            <div class="main-slider-text">
+                                <span class="quality"></span>
+                                <div class="bottom-text">
+                                    <p style="font-size: 1.3rem; color: white;">Leni Robredo</p>
+                                    <div class="candidate-name">
+                                        <span >Former Vice President, Lawyer</span>
+                                        <strong>"Not the glittering weapon fights the fight, but rather the hero’s heart"</strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="main-slider-box">
+                            <a href="#" class="main-slider-overlay">
+                                <i class="fa-solid fa-users-viewfinder"></i>
+                                </br>
+                                <p>View Candidate</p>
+                            </a>
+                            <div class="main-slider-img">
+                                <img src="img/moreno-promotional.jpg" alt="Poster">
+                            </div>
+                            <div class="main-slider-text">
+                                <span class="quality">Candidate #4</span>
+
+                                <div class="bottom-text">
+                                    <div class="candidate-name">
+                                        <span>Isko Moreno</span>
+                                        <strong>Mayor of Manila, Politician, Actor</strong>
+                                    </div>
+                                    <div class="category-rating">
+                                        <div class="category">
+                                            <a href="#">Aksyon Demokratiko</a>,<a href="#">Asenso Manileño</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="main-slider-box">
+                            <a href="<?php echo 'candidate-lacson.php';?>" class="main-slider-overlay">
+                                <i class="fa-solid fa-users-viewfinder"></i>
+                                </br>
+                                <p>View Candidate</p>
+                            </a>
+                            <div class="main-slider-img">
+                                <img src="img/lacson-promotional.jpg" alt="Poster">
+                            </div>
+                            <div class="main-slider-text">
+                                <span class="quality">Candidate #5</span>
+
+                                <div class="bottom-text">
+                                    <div class="candidate-name">
+                                        <span>Ping Lacson</span>
+                                        <strong>Police Officer, Politician</strong>
+                                    </div>
+                                    <div class="category-rating">
+                                        <div class="category">
+                                            <a href="#">Partido para sa Demokratikong Reporma</a>, <a href="">Independent</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="slider-btns">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <!--  -->
+
+        <script src="swiper-bundle.min.js"></script> <!-- Had an error so pro fucking tip: declare library first before calling your js file --dumbass ej -->
+        <script>
+            var swipers = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+                },
+            });
+        </script>
+        <script type="text/javascript" src="main.js"></script>
+  
+
+<!-- <script src="swiper-bundle.min.js"></script>
+<script src="main.js"></script> -->
+
+    </body>
+</html>
+      
