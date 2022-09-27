@@ -43,7 +43,7 @@
 
 body{
   background: var(--body-bg-color);
-  background-color: gray;
+  background-color: #282f4e;
 }
 
 section{
@@ -55,6 +55,9 @@ section{
   background: var(--section-bg-color);
   padding: 35px 200px;
   transition: 0.3s ease;
+}
+a{
+  text-decoration: none;
 }
 
 /*======= Header =======*/
@@ -462,7 +465,7 @@ header .nav-bar{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: gray;
+  background: #282f4e;
   font-family: 'Poppins', sans-serif;
 }
 
